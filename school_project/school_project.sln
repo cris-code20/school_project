@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school_project", "school_project\school_project.csproj", "{B7EB7C2C-E64E-4D79-8A70-C1EF551C72C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "school_project", "school_project\school_project.csproj", "{B7EB7C2C-E64E-4D79-8A70-C1EF551C72C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school.Infrestrutura", "school.Infrestrutura\school.Infrestrutura.csproj", "{71D2B9A4-D053-46D2-BDA1-D4B876E217FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "school.Infrestrutura", "school.Infrestrutura\school.Infrestrutura.csproj", "{71D2B9A4-D053-46D2-BDA1-D4B876E217FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school.Application", "school.Application\school.Application.csproj", "{540C3E73-8875-4E5C-8280-30BFCCE84B31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "school.Application", "school.Application\school.Application.csproj", "{540C3E73-8875-4E5C-8280-30BFCCE84B31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school.Api", "school.Api\school.Api.csproj", "{FAAE9BC3-EBE5-448E-8727-C531E792F545}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "school.Api", "school.Api\school.Api.csproj", "{FAAE9BC3-EBE5-448E-8727-C531E792F545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school.Domain", "school.Domain\school.Domain.csproj", "{52943C06-5B6B-46A2-8D8C-57D04FA595A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school.IOC", "school.IOC\school.IOC.csproj", "{BA9C809A-A5B1-49A0-BDC7-F4412E677734}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{FAAE9BC3-EBE5-448E-8727-C531E792F545}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAAE9BC3-EBE5-448E-8727-C531E792F545}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAAE9BC3-EBE5-448E-8727-C531E792F545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52943C06-5B6B-46A2-8D8C-57D04FA595A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52943C06-5B6B-46A2-8D8C-57D04FA595A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52943C06-5B6B-46A2-8D8C-57D04FA595A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52943C06-5B6B-46A2-8D8C-57D04FA595A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA9C809A-A5B1-49A0-BDC7-F4412E677734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9C809A-A5B1-49A0-BDC7-F4412E677734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9C809A-A5B1-49A0-BDC7-F4412E677734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9C809A-A5B1-49A0-BDC7-F4412E677734}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
